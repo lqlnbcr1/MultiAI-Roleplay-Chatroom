@@ -1,3 +1,5 @@
+[中文文档](README_CN.md)
+
 # Talk Room AI 💬
 
 **Talk Room AI** is a locally hosted, immersive AI role-playing chat room application. It allows you to create customized chat rooms where you can interact with multiple AI characters, each with their own unique personalities, in a shared narrative context.
