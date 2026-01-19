@@ -4,8 +4,8 @@
   "description": "A localized, collaborative AI role-playing chat room built with Next.js.",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "dev:lan": "echo \"---------------------------------------------------\" && echo \"Local LAN URL:\" && ifconfig | grep \"inet \" | grep -v 127.0.0.1 | awk '{print \"http://\" $2 \":3000\"}' && echo \"---------------------------------------------------\" && next dev -H 0.0.0.0",
+    "dev": "next dev --webpack",
+    "dev:lan": "echo \"---------------------------------------------------\" && echo \"Local LAN URL:\" && ifconfig | grep \"inet \" | grep -v 127.0.0.1 | awk '{print \"http://\" $2 \":3000\"}' && echo \"---------------------------------------------------\" && next dev --webpack -H 0.0.0.0",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
