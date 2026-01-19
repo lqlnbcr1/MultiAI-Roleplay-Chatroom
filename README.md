@@ -1,8 +1,8 @@
 [中文文档](README_CN.md)
 
-# Talk Room AI 💬
+# MultiAI Roleplay Chatroom 💬
 
-**Talk Room AI** is a locally hosted, immersive AI role-playing chat room application. It allows you to create customized chat rooms where you can interact with multiple AI characters, each with their own unique personalities, in a shared narrative context.
+**MultiAI Roleplay Chatroom** is a locally hosted, immersive AI role-playing chat room application. It allows you to create customized chat rooms where you can interact with multiple AI characters, each with their own unique personalities, in a shared narrative context.
 
 > 💡 **Note**: Compatible with any OpenAI format API, supports arbitrary model configuration (use Grok model to unlock NSFW).
 
@@ -82,23 +82,13 @@ You must fully embody "Xiao Mei", an 18-year-old childhood friend who secretly l
 1.  **Clone the repository**:
     ```bash
     git clone <repository-url>
-    cd talk_room
+    cd MultiAI-Roleplay-Chatroom
     ```
 
 2.  **Install dependencies**:
     ```bash
     npm install
     ```
-
-### Configuration
-
-Before chatting, you need to configure your AI provider:
-
-1.  Start the app and click the **Settings (Gear)** icon in the sidebar.
-2.  **OpenAI Base URL**: Enter your API provider's base URL (e.g., `https://api.openai.com/v1` or `https://api.x.ai/v1`).
-3.  **OpenAI API Key**: Enter your API Key `sk-...`.
-4.  **Model Name**: Enter the model ID you wish to use (e.g., `gpt-4o`, `claude-3-5-sonnet`, `xai.grok-4`). Default is `xai.grok-4`.
-5.  **User Name**: Set how you want to be addressed by the AI.
 
 ## 🏃‍♂️ Running the Project
 
@@ -131,6 +121,16 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 3.  **Connect**:
     Enter that URL into your phone's browser. Ensure your phone is connected to the same Wi-Fi as your computer.
+
+### Configuration
+
+Before chatting, you need to configure your AI provider:
+
+1.  Start the app and click the **Settings (Gear)** icon in the sidebar.
+2.  **OpenAI Base URL**: Enter your API provider's base URL (e.g., `https://api.openai.com/v1` or `https://api.x.ai/v1`).
+3.  **OpenAI API Key**: Enter your API Key `sk-...`.
+4.  **Model Name**: Enter the model ID you wish to use (e.g., `gpt-4o`, `claude-3-5-sonnet`, `xai.grok-4`). Default is `xai.grok-4`.
+5.  **User Name**: Set how you want to be addressed by the AI.
 
 ## 🛠️ Technology Stack
 
