@@ -2,6 +2,8 @@
 
 **Talk Room AI** 是一个本地托管的沉浸式 AI 角色扮演聊天室应用。它允许你创建自定义的聊天室，在共享的叙事背景下，与多个拥有独特个性的 AI 角色进行互动。
 
+> 💡 **提示**: 兼容任何 OpenAI 格式的API，支持任意模型配置（使用 Grok 模型可解锁 NSFW）。
+
 本项目基于 **Next.js 16** 和 **Tailwind CSS 4** 构建，专为优质的**移动端优先**体验而设计。
 
 ## ✨ 核心特性
@@ -91,7 +93,7 @@
 在开始聊天之前，你需要配置 AI 提供商：
 
 1.  启动应用，点击侧边栏的 **设置 (齿轮)** 图标。
-2.  **OpenAI Base URL**: 输入你的 API 服务商的基础 URL (例如 `https://api.openai.com/v1` or `https://api.x.ai/v1`)。
+2.  **OpenAI Base URL**: 输入你的 API 服务商的基础 URL (例如 `https://api.openai.com/v1` 或 `https://api.x.ai/v1`)。
 3.  **OpenAI API Key**: 输入你的 API Key `sk-...`。
 4.  **Model Name**: 输入你想使用的模型名称 (例如 `gpt-4o`, `claude-3-5-sonnet`, `xai.grok-4`). 默认为 `xai.grok-4`。
 5.  **User Name**: 设置你希望 AI 如何称呼你。

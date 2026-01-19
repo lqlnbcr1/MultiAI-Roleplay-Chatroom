@@ -4,6 +4,8 @@
 
 **Talk Room AI** is a locally hosted, immersive AI role-playing chat room application. It allows you to create customized chat rooms where you can interact with multiple AI characters, each with their own unique personalities, in a shared narrative context.
 
+> 💡 **Note**: Compatible with any OpenAI format API, supports arbitrary model configuration (use Grok model to unlock NSFW).
+
 Built with **Next.js 16**, **Tailwind CSS 4**, and designed for a premium, **mobile-first** experience.
 
 ## ✨ Features
