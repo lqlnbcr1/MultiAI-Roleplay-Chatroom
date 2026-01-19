@@ -17,9 +17,11 @@
 - **🔌 灵活的 AI 后端**: 兼容任何 OpenAI 格式的 API (例如 OpenAI官方, xAI, DeepSeek, 或通过 LM Studio/Ollama 运行的本地模型)。
 
 ## 使用截图
-![图片_20260119160008_54_196](https://github.com/user-attachments/assets/8d395721-7114-49a4-99d1-fa123718eb3f)
-![图片_20260119160006_52_196](https://github.com/user-attachments/assets/5ab2f532-f562-4b4c-902c-f6c4b7b52f66)
-![图片_20260119160007_53_196](https://github.com/user-attachments/assets/3b5e4127-3163-4583-83ed-b3c53640c62d)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/8d395721-7114-49a4-99d1-fa123718eb3f" width="32%" />
+  <img src="https://github.com/user-attachments/assets/5ab2f532-f562-4b4c-902c-f6c4b7b52f66" width="32%" />
+  <img src="https://github.com/user-attachments/assets/3b5e4127-3163-4583-83ed-b3c53640c62d" width="32%" />
+</div>
 
 
 ##  趣味玩法示例：主人的后宫

@@ -18,7 +18,15 @@ Built with **Next.js 16**, **Tailwind CSS 4**, and designed for a premium, **mob
 - **🔒 Local Privacy**: All chat history, character settings, and configurations are stored in your browser's **LocalStorage**. No external database required.
 - **🔌 Flexible AI Backend**: Compatible with any OpenAI-compatible API (e.g., OpenAI, xAI, DeepSeek, local LLMs via LM Studio/Ollama).
 
-## 📖 Gameplay Example: The Master's Harem
+## � Screenshots
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/8d395721-7114-49a4-99d1-fa123718eb3f" width="32%" />
+  <img src="https://github.com/user-attachments/assets/5ab2f532-f562-4b4c-902c-f6c4b7b52f66" width="32%" />
+  <img src="https://github.com/user-attachments/assets/3b5e4127-3163-4583-83ed-b3c53640c62d" width="32%" />
+</div>
+
+## �📖 Gameplay Example: The Master's Harem
 
 To help you get started quickly, here is a highly engaging setup example. You can copy the following settings to experience an immersive romantic "Shuraba" (dramatic situation)!
 
