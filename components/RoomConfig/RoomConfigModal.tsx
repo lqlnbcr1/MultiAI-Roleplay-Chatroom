@@ -106,10 +106,10 @@ export default function RoomConfigModal({
                                         className="p-2 text-sm border rounded dark:bg-zinc-900"
                                     />
                                     <input
-                                        placeholder="Avatar URL (Optional)"
+                                        placeholder="Avatar URL (Coming Soon)"
                                         value={editingChar.avatar || ""}
-                                        onChange={e => setEditingChar({ ...editingChar, avatar: e.target.value })}
-                                        className="p-2 text-sm border rounded dark:bg-zinc-900"
+                                        disabled
+                                        className="p-2 text-sm border rounded dark:bg-zinc-900 bg-zinc-100 dark:bg-zinc-800 text-zinc-400 cursor-not-allowed opacity-60"
                                     />
                                 </div>
                                 <textarea

@@ -194,7 +194,20 @@ export default function Home() {
                     </>
                 ) : (
                     <div className="flex-1 flex flex-col items-center justify-center text-zinc-400">
+                        {/* Mobile hamburger button for empty state */}
+                        <button
+                            onClick={() => setIsSidebarOpen(true)}
+                            className="md:hidden absolute top-4 left-4 p-2 text-zinc-600 dark:text-zinc-400 hover:bg-zinc-100 dark:hover:bg-zinc-800 rounded-lg"
+                        >
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+                        </button>
                         <p>Select a room or create a new one.</p>
+                        <button
+                            onClick={() => setIsSidebarOpen(true)}
+                            className="mt-4 md:hidden px-4 py-2 bg-black dark:bg-white text-white dark:text-black rounded-lg font-medium"
+                        >
+                            + New Room
+                        </button>
                     </div>
                 )}
             </main>
